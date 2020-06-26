@@ -13,7 +13,7 @@
   <a href="https://t.me/WongNdes0">
    <img src="https://img.shields.io/badge/telegram--blue.svg">
    </a>
-  <a href="https://github.com/pikpikcu/naomi">
+  <a href="https://github.com/pikpikcu/naomi/releases">
     <img src="https://img.shields.io/badge/version-V0.1-green.svg">
  </a>
    <a href="https://github.com/pikpikcu/naomi/blob/master/LICENSE">
