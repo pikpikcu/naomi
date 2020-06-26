@@ -1,7 +1,7 @@
 
 # OSINT and Information Gathering!
 
-<h4 align="center"><img src="https://raw.githubusercontent.com/pikpikcu/naomi/master/naomi.png" width="300px" height="300px">
+<h4 align="center"><img src="https://raw.githubusercontent.com/pikpikcu/naomi/master/etc/naomi.png" width="300px" height="300px">
 
 </a>
 <h4 align="center">Details</h4>                
