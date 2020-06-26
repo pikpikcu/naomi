@@ -52,6 +52,7 @@
 #### ✔️ ***How to install ***:
 
 > root@kali~# git clone https://github.com/pikpikcu/naomi.git
+
 > root@kali~# ./naomi.py -h
 
 ### Contribution & License
