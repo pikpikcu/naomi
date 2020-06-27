@@ -3,7 +3,6 @@
 # Created By pikpikcu
 
 import argparse,sys,time
-from etc.banner import banner
 
 def start():
 	from etc.banner import Argument
@@ -17,37 +16,30 @@ def start():
 	parser.add_argument("-h","--help",dest='help',action='store_true')
 	args = parser.parse_args()
 	if args.help:
-		banner()
 		Argument()
 		exit()
 	if args.subdo:
 		from module.subdo import subdo
-		banner()
 		time.sleep(2)
 		subdo(args.subdo)
 	if args.cms:
 		from module.cms import cms
-		banner()
 		time.sleep(2)
 		cms(args.cms)
 	if args.host:
 		from module.host import host
-		banner()
 		time.sleep(2)
 		host(args.host)
 	if args.wp:
 		from module.wordpres import wp
-		banner()
 		time.sleep(2)
 		wp(args.wp)
 	if args.thread:
 		from module.finding import thread
-		banner()
 		time.sleep(2)
 		thread(args.thread)
 	if args.dns:
 		from module.dnsdumpster import dns
-		banner()
 		time.sleep(2)
 		dns(args.dns)
 	 
