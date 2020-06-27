@@ -9,7 +9,7 @@ if __name__ == "__main__":
 	naomi.daemon = True
 	naomi.start()
 	try:
+		banner()
 		naomi.join()
 	except:
-		banner()
 		exit()
